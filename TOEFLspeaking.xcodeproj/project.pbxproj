@@ -1,0 +1,574 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXContainerItemProxy section */
+		8469A8E52D8823EC0047FA39 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8469A8C82D8823EA0047FA39 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8469A8CF2D8823EA0047FA39;
+			remoteInfo = TOEFLspeaking;
+		};
+		8469A8EF2D8823EC0047FA39 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8469A8C82D8823EA0047FA39 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8469A8CF2D8823EA0047FA39;
+			remoteInfo = TOEFLspeaking;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		8469A8D02D8823EA0047FA39 /* TOEFLspeaking.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TOEFLspeaking.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8469A8E42D8823EC0047FA39 /* TOEFLspeakingTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TOEFLspeakingTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8469A8EE2D8823EC0047FA39 /* TOEFLspeakingUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TOEFLspeakingUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		8469A8F62D8823EC0047FA39 /* Exceptions for "TOEFLspeaking" folder in "TOEFLspeaking" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = 8469A8CF2D8823EA0047FA39 /* TOEFLspeaking */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		8469A8D22D8823EA0047FA39 /* TOEFLspeaking */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				8469A8F62D8823EC0047FA39 /* Exceptions for "TOEFLspeaking" folder in "TOEFLspeaking" target */,
+			);
+			path = TOEFLspeaking;
+			sourceTree = "<group>";
+		};
+		8469A8E72D8823EC0047FA39 /* TOEFLspeakingTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = TOEFLspeakingTests;
+			sourceTree = "<group>";
+		};
+		8469A8F12D8823EC0047FA39 /* TOEFLspeakingUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = TOEFLspeakingUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8469A8CD2D8823EA0047FA39 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8469A8E12D8823EC0047FA39 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8469A8EB2D8823EC0047FA39 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8469A8C72D8823EA0047FA39 = {
+			isa = PBXGroup;
+			children = (
+				8469A8D22D8823EA0047FA39 /* TOEFLspeaking */,
+				8469A8E72D8823EC0047FA39 /* TOEFLspeakingTests */,
+				8469A8F12D8823EC0047FA39 /* TOEFLspeakingUITests */,
+				8469A8D12D8823EA0047FA39 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8469A8D12D8823EA0047FA39 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8469A8D02D8823EA0047FA39 /* TOEFLspeaking.app */,
+				8469A8E42D8823EC0047FA39 /* TOEFLspeakingTests.xctest */,
+				8469A8EE2D8823EC0047FA39 /* TOEFLspeakingUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8469A8CF2D8823EA0047FA39 /* TOEFLspeaking */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8469A8F72D8823EC0047FA39 /* Build configuration list for PBXNativeTarget "TOEFLspeaking" */;
+			buildPhases = (
+				8469A8CC2D8823EA0047FA39 /* Sources */,
+				8469A8CD2D8823EA0047FA39 /* Frameworks */,
+				8469A8CE2D8823EA0047FA39 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				8469A8D22D8823EA0047FA39 /* TOEFLspeaking */,
+			);
+			name = TOEFLspeaking;
+			packageProductDependencies = (
+			);
+			productName = TOEFLspeaking;
+			productReference = 8469A8D02D8823EA0047FA39 /* TOEFLspeaking.app */;
+			productType = "com.apple.product-type.application";
+		};
+		8469A8E32D8823EC0047FA39 /* TOEFLspeakingTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8469A8FC2D8823EC0047FA39 /* Build configuration list for PBXNativeTarget "TOEFLspeakingTests" */;
+			buildPhases = (
+				8469A8E02D8823EC0047FA39 /* Sources */,
+				8469A8E12D8823EC0047FA39 /* Frameworks */,
+				8469A8E22D8823EC0047FA39 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8469A8E62D8823EC0047FA39 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				8469A8E72D8823EC0047FA39 /* TOEFLspeakingTests */,
+			);
+			name = TOEFLspeakingTests;
+			packageProductDependencies = (
+			);
+			productName = TOEFLspeakingTests;
+			productReference = 8469A8E42D8823EC0047FA39 /* TOEFLspeakingTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		8469A8ED2D8823EC0047FA39 /* TOEFLspeakingUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8469A8FF2D8823EC0047FA39 /* Build configuration list for PBXNativeTarget "TOEFLspeakingUITests" */;
+			buildPhases = (
+				8469A8EA2D8823EC0047FA39 /* Sources */,
+				8469A8EB2D8823EC0047FA39 /* Frameworks */,
+				8469A8EC2D8823EC0047FA39 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8469A8F02D8823EC0047FA39 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				8469A8F12D8823EC0047FA39 /* TOEFLspeakingUITests */,
+			);
+			name = TOEFLspeakingUITests;
+			packageProductDependencies = (
+			);
+			productName = TOEFLspeakingUITests;
+			productReference = 8469A8EE2D8823EC0047FA39 /* TOEFLspeakingUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8469A8C82D8823EA0047FA39 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1620;
+				LastUpgradeCheck = 1620;
+				TargetAttributes = {
+					8469A8CF2D8823EA0047FA39 = {
+						CreatedOnToolsVersion = 16.2;
+					};
+					8469A8E32D8823EC0047FA39 = {
+						CreatedOnToolsVersion = 16.2;
+						TestTargetID = 8469A8CF2D8823EA0047FA39;
+					};
+					8469A8ED2D8823EC0047FA39 = {
+						CreatedOnToolsVersion = 16.2;
+						TestTargetID = 8469A8CF2D8823EA0047FA39;
+					};
+				};
+			};
+			buildConfigurationList = 8469A8CB2D8823EA0047FA39 /* Build configuration list for PBXProject "TOEFLspeaking" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8469A8C72D8823EA0047FA39;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 8469A8D12D8823EA0047FA39 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8469A8CF2D8823EA0047FA39 /* TOEFLspeaking */,
+				8469A8E32D8823EC0047FA39 /* TOEFLspeakingTests */,
+				8469A8ED2D8823EC0047FA39 /* TOEFLspeakingUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8469A8CE2D8823EA0047FA39 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8469A8E22D8823EC0047FA39 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8469A8EC2D8823EC0047FA39 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8469A8CC2D8823EA0047FA39 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8469A8E02D8823EC0047FA39 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8469A8EA2D8823EC0047FA39 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8469A8E62D8823EC0047FA39 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8469A8CF2D8823EA0047FA39 /* TOEFLspeaking */;
+			targetProxy = 8469A8E52D8823EC0047FA39 /* PBXContainerItemProxy */;
+		};
+		8469A8F02D8823EC0047FA39 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8469A8CF2D8823EA0047FA39 /* TOEFLspeaking */;
+			targetProxy = 8469A8EF2D8823EC0047FA39 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		8469A8F82D8823EC0047FA39 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = TOEFLspeaking/TOEFLspeaking.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"TOEFLspeaking/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = TOEFLspeaking/Info.plist;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "milk-dragon.TOEFLspeaking";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		8469A8F92D8823EC0047FA39 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = TOEFLspeaking/TOEFLspeaking.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"TOEFLspeaking/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = TOEFLspeaking/Info.plist;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "milk-dragon.TOEFLspeaking";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		8469A8FA2D8823EC0047FA39 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		8469A8FB2D8823EC0047FA39 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8469A8FD2D8823EC0047FA39 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "milk-dragon.TOEFLspeakingTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TOEFLspeaking.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/TOEFLspeaking";
+			};
+			name = Debug;
+		};
+		8469A8FE2D8823EC0047FA39 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "milk-dragon.TOEFLspeakingTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TOEFLspeaking.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/TOEFLspeaking";
+			};
+			name = Release;
+		};
+		8469A9002D8823EC0047FA39 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "milk-dragon.TOEFLspeakingUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = TOEFLspeaking;
+			};
+			name = Debug;
+		};
+		8469A9012D8823EC0047FA39 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "milk-dragon.TOEFLspeakingUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = TOEFLspeaking;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8469A8CB2D8823EA0047FA39 /* Build configuration list for PBXProject "TOEFLspeaking" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8469A8FA2D8823EC0047FA39 /* Debug */,
+				8469A8FB2D8823EC0047FA39 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8469A8F72D8823EC0047FA39 /* Build configuration list for PBXNativeTarget "TOEFLspeaking" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8469A8F82D8823EC0047FA39 /* Debug */,
+				8469A8F92D8823EC0047FA39 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8469A8FC2D8823EC0047FA39 /* Build configuration list for PBXNativeTarget "TOEFLspeakingTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8469A8FD2D8823EC0047FA39 /* Debug */,
+				8469A8FE2D8823EC0047FA39 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8469A8FF2D8823EC0047FA39 /* Build configuration list for PBXNativeTarget "TOEFLspeakingUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8469A9002D8823EC0047FA39 /* Debug */,
+				8469A9012D8823EC0047FA39 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8469A8C82D8823EA0047FA39 /* Project object */;
+}
