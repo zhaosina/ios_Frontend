@@ -7,7 +7,7 @@
 import SwiftUI
 
 @main
-struct ToeflSpeakingAppApp: App {
+struct ToeflSpeakingApp: App {
     var body: some Scene {
         WindowGroup {
             ContentView() // 入口视图
