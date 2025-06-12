@@ -25,13 +25,6 @@ struct CampusSpeakingView: View {
     }
 }
 
-// TPO助手页面
-struct TPOAssistantView: View {
-    var body: some View {
-        Text("TPO口语助手功能")
-            .navigationTitle("TPO口语助手")
-    }
-}
 
 // 仿真练习页面
 struct SimulationPracticeView: View {
